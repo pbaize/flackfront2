@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <title>Flack</title>
-    <link href="/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <link href="/bootstrap-dark.css" rel="stylesheet" />
+    <link href="/normalize.css/normalize.css" rel="stylesheet"/>
+    <!-- <link href="/wingcss/dist/wing.css" rel="stylesheet" /> -->
+     <link href="/bootstrap.min.css" rel="stylesheet" />
+    <link href="/bootstrap/dist/css/bootstrap-dark.css" rel="stylesheet" />
     <link href="/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="flackicon.png" type="image/x-icon" /> </head>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand" rel="stylesheet">
@@ -19,15 +21,15 @@
   </head>
   <body ng-app='flack'>
     <div id="main" class="container-fluid">
-
-      <div class="col-xs-2">
+     <div class="row">
+      <div class="col-sm-2">
         <sidebar ng-controller="SidebarCtrl"></sidebar>
       </div>
-      <div class="col-xs-10">
+      <div class="col-sm-10">
         <channel-head></channel-head>
         <flack-textbox></flack-textbox>
       </div>
-
+</div>
     </div>
   </body>
 </html>

@@ -63,6 +63,11 @@ textarea {
   font-weight: bold;
 }
 
+#flackbox{
+
+  position: fixed;
+  bottom: 0;
+}
 
 [double-click] {
   -webkit-user-select: none;
