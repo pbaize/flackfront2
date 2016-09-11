@@ -1,14 +1,17 @@
 <img src="flackicon.png" class="logo">
-<h3>Flack</h3>
-<div class="username">
-  <h4>USERNAME HERE</h4>
-</div>
+<img src="flackname.png" class="logo">
+
 <section>
-  <h5 class="menu-item">
-    <a ui-sref="">CHANNELS</a>
+<!--   <table>
+  	<thead>CHANNELS</thead>
+  	<TBODY>
+  		<tr ng-repeat="channel in channels">{{channel}}</tr>
+  	</TBODY>
+  </table> -->
+  <h5 class="menu-item">CHANNELS</h5>
     <div ng-repeat="channel in channels">
       <div>
-        <h6>{{channel}}</h6>
+        <h6><a ui-sref="/channel/:id">{{channel}}</a></h6>
       </div>
     </div>
   </h5>

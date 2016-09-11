@@ -13,12 +13,16 @@ sidebar {
   position: fixed;
   left: 0;
   top: 0;
-  padding: 0 !important;
-  background: #716969;
+  padding: 0;
+  /*margin-right: 0*/
+  /*background: #716969;*/
+  background: #C6AFB1;
+  /*background: #ffe0e3;*/
   height: calc(100vh);
   width: inherit;
   overflow-y: auto;
-  border-right: 2px solid #555; }
+  /*border-right: 2px solid #555;*/
+   }
   sidebar::-webkit-scrollbar{
     width: 10px;
     background-color: #222; }
@@ -64,7 +68,6 @@ textarea {
 }
 
 #flackbox{
-
   position: fixed;
   bottom: 0;
 }
